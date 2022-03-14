@@ -1,3 +1,69 @@
+/* Fonts Setup */
+
 @font-face {
-    font-family: ;
+    font-family: "tommy-bold";
+    src: url(./font/tommy-bold.otf)
 }
+@font-face {
+    font-family: "tommy-regular";
+    src: url(./font/tommy-normal.otf)
+}
+@font-face {
+    font-family: "tommy-outline-bold";
+    src: url(./font/tommy-bold-outline.otf)
+}
+
+
+/* Fonts */
+
+.titlefont {
+    font-family: 'tommy-bold', sans-serif;
+}
+
+.outlinetitlefont{
+    font-family: 'tommy-outline-bold';
+}
+.regularfont {
+    font-family: 'tommy-normal';
+}
+
+/* Alignments */
+.flex-container {
+    display: flex;
+  }
+.flex-container > div{
+    background-color: #3E517A;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centertitle {
+    display: flex;
+    justify-content: center;
+}
+
+.centerdivmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Shapes */
+
+.rectangle {
+    height: 0.1px;
+    width: 200px;
+}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
